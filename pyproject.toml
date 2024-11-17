@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "jsoner"
+version = "0.1.0"
+description = ""
+authors = ["atljh <fiodorlukashov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiofiles = "^23.2.1"
+tooler = {git = "https://github.com/atljh/tools.git"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
